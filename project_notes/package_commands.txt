@@ -1,0 +1,9 @@
+------------- Tenants/Landlord Migrates ------------------
+
+Commands:
+1. php artisan migrate --path=database/migrations/landlord --database=landlord
+2. php artisan migrate:fresh --path=database/migrations/landlord --database=landlord
+3. php artisan tenants:artisan "migrate --path=database/migrations/ --database=tenant"
+4. php artisan tenants:artisan "migrate:fresh --path=database/migrations/ --database=tenant"
+
+Reference: https://spatie.be/docs/laravel-multitenancy/v2/introduction
